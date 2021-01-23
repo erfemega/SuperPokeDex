@@ -2,3 +2,44 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.pokeCard {
+  border: solid #ddd;
+  border-width: 1rem 0.5rem 2rem;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #18bfdc;
+  border-radius: 10px 10px 0px 30px;
+}
+
+.pokemonControls {
+  padding: 1rem;
+}
+
+.pokemonControls a {
+  color: white;
+}
+
+.pokemonControls a:hover {
+  transition: all 0.5s;
+  color: #990000;
+}
+
+.pokemonsContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pokemonName {
+  width: 100%;
+}
+
+.pokemonImages img {
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #eee;
+  margin: 0.5rem;
+}
